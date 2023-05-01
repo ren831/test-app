@@ -7,3 +7,6 @@ def deposit():
                 break
             else:
                 print("Please enter a positive number.")
+    return amount
+
+deposit()
