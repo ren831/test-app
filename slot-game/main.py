@@ -29,7 +29,7 @@ def get_number_of_lines():
     return lines
 
 def get_bet():
-    while true:
+    while True:
         amount = input("How much would you like to bet on each line? $ ")
         if amount.isdigit():
             amount = int(amount)
